@@ -1,5 +1,5 @@
 .exam{
-   
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -11,10 +11,10 @@
 }
 textarea{
     outline: none;
-    border: 1px solid #eee;
+    border: 1px solid #03A9F4;
     margin-bottom: 20px;
     height: 145px;
-    width: 375px;
+    width: 350px;
     font-size: 25px;
     font-weight: bold;
 
@@ -42,4 +42,56 @@ input[type="button"]{
     font-weight: bold;
     line-height: 1.9;
     padding: 0 20px;
+}
+.contener-quiz{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 20px;
+    background-color: #eee;
+    overflow: auto;
+    height: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.contener-quiz::-webkit-scrollbar{
+    display: none;
+}
+.thequiz{
+    color: #03A9F4;
+    margin-bottom: 5px;
+    position: relative;
+}
+.anser{
+    color: green;
+    font-weight: bold;
+    position: relative;
+}
+.thequiz::before,
+.anser::before{
+    content: "";
+    width: 20px;
+    border: 7px solid;
+    position: absolute;
+    top: 50%;
+    left: -11px;
+    transform: translateY(-50%);
+
+}
+.thequiz::before{
+    border-color: transparent transparent transparent #03A9F4;
+
+}
+.anser::before{
+    border-color: transparent transparent transparent #15b815;
+
+}
+.quiz-and-anser{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

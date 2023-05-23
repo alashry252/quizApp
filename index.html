@@ -1,18 +1,643 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Exam</title>
     <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    </head>
+    <body>
     <div class="exam">
-        <textarea class="quiz"></textarea>
-        <input type="button" value="اظهار النتيجة" class="result">
+    <textarea class="quiz" onkeyup="serach()"></textarea>
+    <div class="contener-quiz">
+    <div class="quiz-and-anser">
+    <div class="thequiz">يمكن تعريف علم الاقتصاد بانه علم دراسه ندرة الموارد المتاحه في اي مجتمع</div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يمكن قول ان هناك ثلاث عناصر انتاج فقط لازمه لاتمام العمليه الانتاجيه وهم العمل وراس المال والارض </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">من اهم موضوعات الاقتصاد الجزئي دراسه البطاله وارتفاع المستوي العام للاسعار </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يوجد تدفق عيني فقط من القطاع العائلي الى القطاع الانتاجي  </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الاقتصاد الجزئي يدرس سلوك لوحدات الفرديه المستهلك والمنتج او المؤسسه عدد لا نهائي من المستهلكين والمنتجين وفقا لعدد السلع والخدمات </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يهتم علم الاقتصاد بدراسه الموارد التي لا تثير مشاكل مثل الهواء </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">قبل الثلاثينات من القرن الماضي كان اهتمام الاقتصاديين بالتحليل الجزئي اشد واقوى كثيرا من اهتمامهم بالتحليل الكلي </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">التحليل الاقتصادي يضم فرعين رئيسيين هم التحليل الاقتصادي الجزئي والتحليل الاقتصادي الكلي </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">لم يكن لكتاب كنز النظريه العامه للعماله والفائده والنقود اثر على النظريه الاقتصاديه الكليه </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يهدف علم الاقتصاد الكلي الى تحقيق هدف واحد وهو استقرار المستوى الاسعار </div>
+    <div class="anser">غلط</div>
     </div>
 
+    <div class="quiz-and-anser">
+    <div class="thequiz">تاريخ علم الاقتصاد يسبق تاريخ الفكره الاقتصادي </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يهدف علم الاقتصاد الى اربعه اهداف رئيسيه وهي الانتاج والاسعار والتوظيف والتجاره الدوليه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يعتبر تدفق السلع والخدمات من القطاع الانتاجي الى القطاع الاستهلاكي تدفق حقيقي </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يهدف علم الاقتصاد الجزئي الى تحقيق مجموعه من الاهداف ومنها استقرار سعر الصرف </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تتمثل عناصر الانتاج اللازمه لاتمام العمليه الانتاجيه في العمل وراس المال والارض والتنظيم </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الناتج هو عمليه تحول فيها الموارد الطبيعيه بعد اضافه النشاط الانساني عليها الى السلع والخدمات تلبي حاجات الانسان المتزايدة </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يقاس الناتج بقيمه صوتيه اي بقيمه نقديه ولا يقاس بالكميه وترجع السبب في ذلك الى اختلاف وحده قياس السلعه والخدمات المختلفه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الناتج القومي = الناتج المحلي - عوائد عوامل الانتاج مع العالم الخارجي + عوائد عوامل الانتاج الاجنبيه التي تعمل داخل مصر  </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">نحصل على الناتج الاجمالي باضافه الاهلاك الى الناتج الصافي </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الاختلاف بين الناتج المحلي الاجمالي والناتج القومي الصوفي يتمثل في وجود الاهلاك </div>
+    <div class="anser">صح </div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتمثل الهدف الرئيسي من عمليه الاحلال والتجديد بالنسبه للعدد والالات للاحتفاظ والطاقه الانتاجيه للمجتمع </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">توجد طريقتين فقط لحساب الناتج المحلي الاجمالي وهم طريقه الدخل وطريقه الانفاق </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تعني القيمه المضافه لفرق بين قيمه الانتاج عند كل مرحله من المراحل الانتاجيه للسلعه الوسيطه التي تدخل تركيب هذه السلع عند كل مرحله </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">القيمه المضافه تساوي قيمه الانتاج مقسوما منه قيمه مستلزمات الانتاج </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يمثل الدخل المحلي صافي الناتج المحلي بتكلفه عوامل الإنتاج </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يحسب الدخل المحلي عن طريق اضافه الاجور والمرتبات الى الرياح فقط </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تتمثل طريقه الدخل في حساب الناتج المحلي الاجمالي من خلال الدخول الى التي تولدت من الناتج </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتمثل عائد المنظم في الاجور والمرتبات التي يحصل عليها نتيجه اشتراكه في العملية الإنتاجية </div>
+    <div class="anser">غلط </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتمثل عائد عمل في الاجور والمرتبات التي يحصل عليها نتيجه الاشتراك في العملية الإنتاجية  </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يطلق على عائد راس المال الربح </div>
+    <div class="anser">غلط</div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">يمكن حساب الناتج المحلي الاجمالي عن طريق اضافه الانفاق والاستهلاك الخاص والانفاق الاستثماري خاص فقط </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">ينظر الى الناتج المحلي الاجمالي وفقا لطريقه الانفاق على انه قيمه السلع والخدمات المتاحه للاستخدامات النهائيه مختلفه او للصادرات </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الناتج بسعر السوق يمكن حسابه باضافه الضرائب غير المباشره وخصم اعلانات الانتاج من الناتج بتكلفه عوامل الانتاج </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">اذا كانت الضرائب غير المباشره التي تفرض على السلع والخدمات اكبر من اعانات الانتاج التي تمنحها الحكومه للمنتجين يكون الناتج بسعر السوق اصغر من الناتج بتكلفه عوامل الانتاج </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">اذا كانت اعانات الانتاج التي تمنحها الحكومه للمنتجين اكبر من الضرائب غير المباشره التي تفرضها على السلعه والخدمات يكون الناتج بتكلفه عوامل الانتاج اكبر من الناتج بسعر السوق </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتساوى الناتج بسعر السوق مع الناتج بتكلفه عوامل الانتاج في حاله عدم تساوي الضرائب غير المباشره مع اعانات الانتاج </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">اذا علمت ان الناتج قام الاجمالي بسعر السوق يبلغ ٣٤٠٠ مليار جنيه اهلاك راس المال ليبلغ ٣٠٠ مليار جنيه والضرائب غير المباشره ٣٠٠ مليار جنيه واعانات الانتاج تبلغ ٢٠٠ مليار جنيه فان الدخل قومي يساوي ٣٠٠٠ مليار جنيه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يعرف الانفاق القومي بانه عباره عن مجموعه الدخول التي يحصل عليها اصحاب عوامل الانتاج خلال فتره زمنيه معينه تساوي اعاده سنه مقابل اشتراكهم في العمليه الانتاجيه </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">نستبعد عند حسابنا للدخل تلك الدخول التي يتم الحصول عليها في صوره هبات او منح والتي يطلق عليها اسم المدفوعات التحويليه لعدم حدوث ازدواج الحساب </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">لا يختلف مفهوم الدخل القومي عن مفهوم الدخل الشخصي </div>
+    <div class="anser">غلط</div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">الدخل الشخصي يساوي دخل القومي مطروحا منه الارباح غير الموزعه والضرائب المباشره على الارباح ومضافا اليه المدفوعات التحويليه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتمثل الاختلاف فيما بين الدخل القومي والداخل المتاح في الضرائب المباشره على الدخل </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتمثل الاختلاف فيما بين الدخل الشخصي والدخل المتاح في الضرائب المباشر على الدخل </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">بفرض ان الدخل الشخصي يساوي ٢٩٧٠ جنيه و الضرائب المباشره علي الدخل تساوي 1٢٠ جنيه فان الدخل المتاح يساوي ٢٨٥٠ جنيه </div>
+    <div class="anser">صح </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">اذا علمت ان الدخل القومي يساوي ٣٠٠٠ مليار جنيه والضرائب المباشر على الارباح ٥٠ مليار جنيه في حين ان الارباح غير موزعه ٧٠ مليار جنيه كما ان المدفوعات التحويليه للافراد ٩٠ مليار جنيه فان الدخل الشخصي يساوي ٢٩٧٠ مليار جنيه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الانفاق القومي هو عباره عن الطلب الكلي على البطائع وخدمات النهائيه المنتجه خلال فتره زمنيه ( سنه) </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">قسم الناتج القومي من وجهه نظر الاستخدام او الانفاق الى الانفاق الاستهلاك الخاص والانفاق الاستثماري الخاص فقط </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الانفاق الاستثماري خاص هو عباره عن انفاق المستهلكين على السلع والخدمات </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الانفاق على شراء السلعه وطويله الاجل كالعقارات يعتبر انفاق على الاستهلاك </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتمثل الانفاق الاستهلاك الخاص في انفاق المستهلكين على السلع فقط </div>
+    <div class="anser">غلط</div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">يشمل الانفاق الاستثماري خاص تلك الاضافه التي تضيف القطاعات المختلفه المكونه للاقتصاد القومي الى الطاقه الإنتاجية </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يقسم الاستثمار الى صافي التغيير في المخزون السلعي لدى مؤسسات الاعمال فقط </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتمثل الانفاق الحكومي في مجموع قيم النقديه للسلع والخدمات للاستهلاكيه والاستثماريه التي تشتريها الحكومه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تمثل الصادرات ذلك الانفاق الذي يقوم به الاجانب على المنتجات المحليه او الوطنيه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تمثل واردات ذلك جزء من الانفاق قطاعات المحليه المختلفه والذي يتم تخصيصه لشراء منتجات الدول الاخرى </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يحسب الانفاق المحلي الصافي عن طريق خاص من قيمه الاهلاك من الانفاق المحلي الاجمالي </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الناتج المحلي الاجمالي = الانفاق الاستهلاكي الخاص + الانفاق الاستثماري الخاص + الانفاق الحكومي + صافي الصادرات من السلع و الخدمات </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تعتبر خدمات ربات البيوت أحد معوقات حساب الناتج القومي </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">لا تثير الأنشطة الاقتصادية غير القانونية مشكله في حساب الناتج القومي </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">ينصروا في اصطلاح المدرسه الكلاسيكيه الى مجموعه الافكار الاقتصاديه التي قام بوضع اصولها كينز </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">اسهم في تطور المدرسه الكلاسيكيه مالتس وساي وريكاردو وجون ستيوارت ميل </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يقول التيار الكلاسيكي الى انه ينبغي ترك الافراد يحققون مصالحهم الخاصه بحريه تامه وعدم تدخل الدوله في النشاط الاقتصادي </div>
+    <div class="anser">صح </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">المقوله الاقتصاديه الشهيره " دعوا يعمل دعوه يمر " تنسب لديفيد ريكاردو </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">من افتراضات النظريه كلاسيكيه تحول كل ادخار الى استثمار </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يزعم المنتج الى تحقيق اقل ربح ممكن وفقا للكلاسيك </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتصور الكلاسيك امكانيه حدوث البطاله على مستوى الاقتصاد القومي ككل الى القول بان التوازن الاقتصادي لا يتحقق عند مستوى التشغيل الكامل </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يرا الكلاسيك بسياده الظروف الاحتقار في اسواق السلع والخدمات وخدمات عناصر الانتاج </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يقصد بعرض العمل على كميه العمل التي يقبل الافراد تقديمها للمشروعات (المنتجين ) مقابل الاجور الحقيقيه السائده في السوق  </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يعد عرض العمل في النموذج الكلاسيكي هو داله متناقضه في معدل الاجور الحقيقيه </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يمثل الاجر التي يتقاضاه الافراد التعويض الذي يطلبونه لكي يعودوه ضرر الناتج عن العمل والمتمثل في الاجهاد والملل وفقدان الوقت الفراغ </div>
+    <div class="anser">صح</div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">العلاقه بين عرض العمل ومعدل الاجور الحقيقي هي علاقه طرديه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">العلاقه بين عرض العمل ومعدل الاجور الحقيقيه هي علاقه طرديه بصفه عامه الا ان هذه العلاقه يمكن ان تكون عكسيه عند حد معين  </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتحقق التوازن في سوق العمل من خلال تقاطع منحنى الطلب على العمل مع منحنى عرض العمل </div>
+    <div class="anser">صح </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">توجد علاقه عكسيه بين قيمه النقود والمستوى العام للأسعار </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يعبر تضخم عن ظاهره اقتصاديه معينه او مجموعه من الظواهر الاقتصاديه التي تدور حول الارتفاع الحاد في المستوى العام للأسعار  </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">التضخم المتقلب او المتقطع او عباره عن حاله ترتفع فيها الاسعار بمعدلها الثابته ومنتظمه ومعقوله </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">التضخم المحلي هو عباره عن حاله تحدث نتيجه عوامل داخليه لاقتصاد ما وفي زمن ما </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يعبر التضخم المتقلب او المتقطع عن حاله ترتفع فيها الاسعار بمعدلات كبيره لفتره معينه تعاقبها فتره اخرى تقبض فيها الاسعار بالفعل التدخل الحكومي وهكذا </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">سوء تخصيص الموارد الاقتصاديه من الاثار الاقتصاديه المترتبه على التضخم </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تمثل الفجوه التضخميه احد المؤشرات او طرق القياس القوه والضغوط التضخميه الكائنه في اقتصاد ما خلال فتره زمنيه معينه </div>
+    <div class="anser">صح</div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">تقاس فجوه الموارد المحليه بالنسبه لاقتصاد ما وفي وقت معين بمقارنه حجم الوردات بحجم الصادرات </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الارقام القياسيه للاسعار وهي عباره عن ملخص للتغيير النسبي في اسعار مجموعه من السلع والخدمات في وقت محدد وبالنسبه لمستواها في وقت اخر </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الفجوه التضخمي الحقيقي تساوي فجوه الموارد المحليه مطروحا منها فجوه الموارد الخارجيه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يجمع الخبراء والاقتصاديون على تعريف العاطل بانه لكل من هو قادر على العمل ورغب فيه ويبحث عنه ويقبله عند مستوى الاجر السائد ولكن دون جدوى </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">نحصل على معدل البطاله بقسمه قوه العمل على الافراد العاطلون </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يكتفي في الدول الناميه بتقدير معدل البطاله كل سنه اما في الدول الصناعيه فيتم الاعلان عن هذا المعدل شهريا </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تنقسم البطاله الى نوعين فقط وهم البطل الاجباريه والبطاله المقنعه </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تتحقق البطاله المقنع عند الوضع الذي تصبح فيه الانتاجيه الحديه لعدد من العمال منخفضه انخفاضا شديدا او مساويا للسفر </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يقصد بالبطاله الاجباريه وجود عمال قادرون ومستعدون للعمل عند الاجور السائده ولا يجدون فرص للتشغيل </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">ترتبط البطاله المقنعه بوجود نوع من العمال يظلون بلا عمل في مواسم معينه </div>
+    <div class="anser">غلط</div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">ترتبط البطاله الموسميه بالركود الذي تتعرض له الاقتصاديه الراسماليه المتقدمة بصفه دوريه </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الواقعيه تعني ان المعرفه العمليه لابد ان تكون معبره عن الواقع </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يهدف الاقتصادي الكلي الى تعظيم الرفاهيه الاقتصاديه لافراد المجتمع ككل خلال الارتفاع بمعدل النمو في الناتج او الدخل القومي </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يكون معدل البطاله الفعلي معادلا المعدل البطاله الطبيعي و المسموح به </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تتكون ادوات سياسه الصرف الاجنبي من التعريفه الجمركيه ونظام الحصص و اعانات الصادرات وغيرها </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">التيارات هي متغيرات اقتصادية لها بعد زمني بمعنى انها تقاس خلال فتره زمنيه معينه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يسمى مقاييس الحسابات القوميه لإجمالي المنتج السلع والخدمات مجمل الناتج ويشار اليه بالرمز  GNP  </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">أن قيمه ما يخص الفرد من مجمل الناتج القومي هو المعبر الحقيقي عن مستوى معيشته </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يساهم القطاع الغير منظم بطريقه مباشره على نمو المجتمعات الناميه </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">من المرجح ان يكون الاقتصاد الخفي اقل كفاءه </div>
+    <div class="anser">صح</div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">مجمل الاستثمار يساوي 1٢٠٠ مليون جنيه في عام 1٩٧٥ بينما يبلغ صافي الاستثمار ٥٣٠ مليون جنيه فقط </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يصنف اقتصاديون عاده البطاله الى احتكاكيه و هيكليه و دوريه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تنشأ البطاله الاحتكاكيه عن غياب التوافق بين فرص العمل المتاحة و مجموعات المهارات والاعمار </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">البطاله الاختياريه هي حاله يتعطل فيها العامل بمحض اختياره وارادته </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">لن يقدم المستثمرون الافراد علي استثمار النقود في انتاج سلع و خدمات لا يمكن بيعها </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">في سنه 1٩٦٦ أسس الانجليز ضريبة خاصه و هي S.E.T ضريبه العماله الانتقائية </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">قدم الاقتصادي الانجليزي جون مينرد كينز تفسيرا جديدا للكيفيه التي يتم بها تحديد مستوى التوظيف وذلك في كتابه النظريه العامه للتوظف الفائده والنقود في عام 1٩٣٦ </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تتمثل دوافع الاستثمار في شراء سلعه في المستقبل والاحتياط لاي ظروف طارئه والضمان مستقبل الابناء او حبا في المال </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تختلف دوافع الادخار عن دوافع الاستثمار لانهما يتمان بواسطه فريقين مختلفين </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يرى كينز بان العامل الحاسم في العمليه الاستثماريه هو معدل الربح التي يتوقعه رجال الاعمال </div>
+    <div class="anser">صح</div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">تقر النظريه الحديثه لكينز بوجود مرونه في الاسعار والاجور بدرجه التي يمكن معها ضمان العوده الى التوظف الكامل وذلك على اثر حدوث انخفاض في الانفاق الكلي </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">الانفاق الاستثماري هو مجموع القيم النقديه للسلع الاستثمارية 
+        (الرأسمالية) التي تستخدم في الانتاج السلع والخدمات النهائيه بواسطه القطاع الخاص </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتم الانفاق الاستثماري بواسطه رجال الاعمال والذي يؤدي الى نقص القدره الإنتاجية </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتضمن الانفاق الاستثماري فقط الشراء النهائي للمعدات بواسطه رجال الاعمال </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يمكن الوصول الى المستوى الدخل التوازني عندما يتساوى الادخار مع الاستثمار </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتحدد مستوى الدخل التوازني عندما يتعادل العرض الكلي مع الطلب الكلي </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">اذا كان الادخار المخطط يساوي 1٠ مليون وما يرغب المنتجون في استثماره هو ٢٠ مليون ولكي يتساوى ويتحقق التوازن لابد من اضافه ما مقداره 1٠ مليون من المخزون </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">عندما يكون الطلب الكلي اصغر من العرض الكلي يكون الاستثمار المخطط اصغر من الادخار للمخطط وفي هذه الحاله لكي يتحقق التوازن يتم اضافه الفرق بين الاستثمار للمخطط والادخار المخطط الى المخزون </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz"></div>
+    <div class="anser"></div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يستلزم اشباع الحاجات ضروري الحصول على وسائل معينه تتصل بالمنفعه ( اي تصلح لاشباع هذه الحاجات ) </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تعرف الوسائل النافعه لاشباع الحاجات بالسلع والخدمات الاستهلاكيه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يمثل استهلاك ظاهره اقتصادية الغاية او الهدف النهائي للنشاط الاقتصادي ككل وللانتاج على وجه الخصوص </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتطلب القيام بشراء هذه السلع والخدمات الاستهلاكيه ضروري توافر القدره على الدفع وهو ما يعني ضروري التواجد القوه الشرائيه لدى افراد المجتمع </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تعبر داله الاستهلاك عن العلاقه بين الدخل بصفه ومتغير مستقل والاستثمار بصفته متغير تابع </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يخصص صغار السن جزءا من طاقاتهم لطلب العلم واكتساب المهارات اكبر مما يخصصون للانشطه التي تولد الدخل الجاري وذلك وفقا لنظرية دورة الحياة </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تشير نظرية دورة الحياة ان الافراد في العمر المتوسط يكون استهلاكهم منخفضا بالنسبه الى الدخل والادخار الفردي مرتفعا بالنسبه للدخل </div>
+    <div class="anser">صح </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تشير نظريه دوره الحياه الى ان كبار السن يدخرون ادخارا سلبيا مره اخرى ويسحبون من اصولهم التي تراكمت فيما مضى لمقابله متطلباتهم الاستهلاكيه </div>
+    <div class="anser">صح </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يشير الدخل الدائم وفقا لفريدمان الى متوسط الدخل الذي يتوقع المستهلك الحصول عليه خلال فتره حياته نتيجه الاستغلال عناصر ثروته سواء كانت ثروه بشريه او ماديه </div>
+    <div class="anser">صح </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">اذا زاد الدخل الجاري عن الدخل الدائم للافراد فان الجزء الاكبر من الدخل الاضافي المؤقت يخصص للاستهلاك </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تعرف الاستثمار على انه عباره عن تيار من الانفاق على السلع الراسماليه الثابته الجديده </div>
+    <div class="anser">صح</div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">تشتمل الاموال غير الموقوله التي تملكها الوحدات الاقتصاديه على الالات والتجهيزات </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يشمل الاستثمار الاجمالي للتكوين الاجمالي لراس المال الثابت فقط </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتحدث الطلب الاستثماري تبعا للعائد المتوقع من قبل المنتجين فقط </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يمكن الحصول على الاستثمار الصافي عن طريق تخفيض قيمه الاستثمار الاجمالي باستثمار الاحلالي </div>
+    <div class="anser">صح </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">عرف كينز الكفايه الحديه لراس المال على انها سعر الخصم الذي يجعل القيمه الحاليه للعائدات السنوية المتوقعه من الاستثمار مساويا لتكلفه هذا الاستثمار </div>
+    <div class="anser">صح </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتحكم في معدل الكفايه الحديه لراس المال مجموعه من العناصر وهي تدفقات النقديه و فتره حياه المشروع فقط </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تعبر تكلفه الاستثمار عن كل ما ينفخ على المشروع من لحظه التفكير الجدي في اقامته وحتى بدايه اول دوره تشغيليه </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تعبر فتره حياه المشروع عن عدد السنوات التي يتوقع خلالها تحصيل ايرادات </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">القيمه الحاليه الصافية لاي مشروع استثماري تعبر القيمه الحاليه للتدفقات النقدية الداخله فقط </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يعبر منحنى IS عن التوازن الحقيقي في سوق السلع والخدمات </div>
+    <div class="anser">صح</div>
+    </div>
+
+    <div class="quiz-and-anser">
+    <div class="thequiz">حضر منحنى LM عن التوازن في سوق النقود </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">انشا ادم سميث نموذجا للتوازن الكلي يدعى IS-LM</div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">وفقا لداله IS فان الدخل يعتبر داله متزايده في سعر الفائده  </div>
+    <div class="anser">غلط </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتمثل الطلب على النقود في الطلب على النقود بدافع المضاربه فقط</div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يتحقق التوازن الكلي في سوق السلع والخدمات وسوق النقود عند النقطه التي يتقاطع عندها المنحنى LM مع  IS  </div>
+    <div class="anser">صح</div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يعتبر عرض العمل داله في معدل الاجور الحقيقيه وفقا للتحليل الكلاسيكي </div>
+    <div class="anser">طرديه </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">يري كلاسيك بسياده ظروف في اسواق السلع وخدمات وخدمات عناصر الانتاج  </div>
+    <div class="anser">المنافسه </div>
+    </div>
+    <div class="quiz-and-anser">
+    <div class="thequiz">تقوم وزاره الماليه بإصدار النقود الورقيه </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+        <div class="thequiz">يتحقق التوازن في السوق العيني عند تساوي الادخار المخطط مع الاستثمار المخطط </div>
+        <div class="anser">غلط</div>
+        </div>
+        <div class="quiz-and-anser">
+    <div class="thequiz">توجد علاقه عكسيه بين الدخل والادخار </div>
+    <div class="anser">غلط</div>
+    </div>
+    <div class="quiz-and-anser">
+        <div class="thequiz">توجد علاقه طردية بين الاستثمار وسعر الفائده </div>
+        <div class="anser">غلط</div>
+        </div>
+        <div class="quiz-and-anser">
+        <div class="thequiz">يتمثل دافع المعاملات في حيازه نقود اضافيه بغرض الحيطه والحذر </div>
+        <div class="anser">غلط</div>
+        </div>
+        <div class="quiz-and-anser">
+        <div class="thequiz">تتمثل الادوات البنك المركزي في الرقابه على النقد في السعر اعاده الخصم وعمليات السوق المفتوحه فقط </div>
+        <div class="anser">غلط</div>
+        </div>
+
+    </div>
     <script src="main.js"></script>
-</body>
-</html>
+    </body>
+    </html>
