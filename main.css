@@ -44,7 +44,7 @@ input[type="button"]{
     padding: 0 20px;
 }
 .contener-quiz{
-    width: 100%;
+    width: 343px;
     text-align: center;
     margin: 0 0 20px;
     font-size: 20px;
@@ -57,6 +57,7 @@ input[type="button"]{
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
+
 }
 .contener-quiz::-webkit-scrollbar{
     display: none;

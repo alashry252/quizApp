@@ -1,14 +1,12 @@
 let contenerQuiz=document.querySelector(".contener-quiz")
 
 function serach(){
-    let inputQuiz=document.querySelector(".quiz").value.trim()
-    // let result=document.querySelector(".result")
+    let inputQuiz=document.querySelector(".quiz").value.toUpperCase()
     let exam=document.querySelector(".exam")
     let thequiz=document.querySelectorAll(".thequiz")
     let theanser=document.querySelectorAll(".anser")
 for(let i=0;i<=thequiz.length;i++){
-    console.log(thequiz[i].textContent)
-    if(thequiz[i].innerHTML.trim().indexOf(inputQuiz)>=0){
+    if(thequiz[i].innerHTML.toUpperCase().indexOf(inputQuiz)>=0){
         thequiz[i].style.display=""
         theanser[i].style.display=""
     }else{
@@ -17,6 +15,22 @@ for(let i=0;i<=thequiz.length;i++){
 
     }
 }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // let answer=new XMLHttpRequest();
 // answer.open("GET","quiz.json")
